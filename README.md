@@ -1,6 +1,6 @@
-# 📊 Sistema de Generación de Reportes de Crédito
+# 📊 Sistema Generación de Reportes
 
-Sistema empresarial construido con Laravel 12 para generar reportes de crédito en formato Excel (XLSX).
+Sistema construido con Laravel 12 para generar reportes de crédito en formato Excel (XLSX).
 
 ## 🎯 Características Principales
 
@@ -180,15 +180,6 @@ QUEUE_CONNECTION=database
 php artisan migrate --seed
 ```
 
-**Con estwe comando:**
-
--   Crea todas las tablas con **índices optimizados** (mejora exponencial vs SQL original)
--   Importa automáticamente **500+ registros** de prueba desde `data.sql`
--   Configura foreign keys y relaciones
--   No necesitas ejecutar scripts SQL manualmente
-
-> 🎯 **Ventaja:** Las migraciones Laravel incluyen índices estratégicos que mejoran el rendimiento exponencialmente comparado con el `database.sql` base.
-
 ### 9. Compilar assets
 
 ```bash
@@ -206,5 +197,6 @@ php artisan serve
 Necesario para la creación de los reportes
 
 ```bash
-php artisan queue:work --tries=3 --timeout=900
+php artisan queue:work
+
 ```
