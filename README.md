@@ -174,15 +174,17 @@ DB_PASSWORD=
 QUEUE_CONNECTION=database
 ```
 
-### 7. Crear base de datos completa (un solo comando)
+### 7. Ejecutar migraciones y seeders
 
 ```bash
 php artisan migrate --seed
 ```
 
-### 9. Compilar assets
+### 9. Ejecutar assets
 
 ```bash
+npm run dev
+###
 npm run build
 ```
 
