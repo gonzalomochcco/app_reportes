@@ -1,0 +1,14 @@
+{
+    "project_hash": "0482588d-870b-47ba-ad12-69211e1fecf9",
+    "components": {
+        "button": {
+            "installationTime": 1767336906
+        },
+        "icon": {
+            "installationTime": 1767336910
+        },
+        "toast": {
+            "installationTime": 1767336940
+        }
+    }
+}
