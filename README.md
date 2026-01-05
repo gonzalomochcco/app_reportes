@@ -116,7 +116,7 @@ resources/
 
 ## 🛠️ Requisitos
 
--   **PHP:** >= 8.2
+-   **PHP:** >= 8.3
 -   **Laravel:** ^12.0
 -   **Extensiones PHP (Requeridad para Laravel-excel):**
     -   ext-zip
